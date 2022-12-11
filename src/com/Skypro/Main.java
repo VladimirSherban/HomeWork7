@@ -44,7 +44,7 @@ public class Main {
     public static void task3() {
         System.out.println("\nЗадача_3");
         int yearCounter = 2022;
-        double population = 12_000_000;
+        int population = 12_000_000;
         while (yearCounter < 2032) {
             int fertility = (int) (17 / 1000.0 * population);
             int mortality = (int) (8 / 1000.0 * population);
