@@ -17,7 +17,7 @@ public class Main {
         int cashSavings = 15_000;
         double total = 0;
         double percent = 0.01;
-        double needToSave = 2_469_000;
+        double needToSave = 2_459_000;
         int monthCounter = 0;
         while (total < needToSave) {
             total = (total + cashSavings) * (1 + percent);
